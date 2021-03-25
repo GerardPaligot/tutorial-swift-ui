@@ -17,6 +17,10 @@ struct MovieRow: View {
                 .frame(width: 50, height: 50)
             Text(movie.name)
             Spacer()
+            if movie.isFavorite {
+                Image(systemName: "star.fill")
+                    .foregroundColor(.yellow)
+            }
         }
     }
 }
@@ -24,8 +28,8 @@ struct MovieRow: View {
 struct MovieRow_Previews: PreviewProvider {
     static var previews: some View {
         Group {
-            MovieRow(movie: movies[0])
-            MovieRow(movie: movies[1])
+            MovieRow(movie: ModelData().movies[0])
+            MovieRow(movie: ModelData().movies[1])
         }
         .previewLayout(.fixed(width: 300, height: 70))
     }

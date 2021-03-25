@@ -30,6 +30,7 @@ struct MapView: View {
 
 struct MapView_Previews: PreviewProvider {
     static var previews: some View {
-        MapView(coordinate: movies[0].locationCoordinate)
+        MapView(coordinate: ModelData().movies[0].locationCoordinate)
+            .previewDevice("iPhone 8")
     }
 }

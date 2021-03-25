@@ -8,7 +8,11 @@
 import SwiftUI
 
 struct MovieDetails: View {
+    @EnvironmentObject private var modelData: ModelData
     var movie: Movie
+    var movieIndex: Int {
+        modelData.movies.firstIndex(where: {$0.id == movie.id})!
+    }
 
     var body: some View {
         ScrollView {
@@ -21,8 +25,12 @@ struct MovieDetails: View {
                 .padding(.bottom, -130)
 
             VStack(alignment: .leading) {
-                Text(movie.name)
-                    .font(.title)
+                HStack {
+                    Text(movie.name)
+                        .font(.title)
+                        .foregroundColor(.primary)
+                    FavoriteButton(isSet: $modelData.movies[movieIndex].isFavorite)
+                }
                 HStack {
                     Text(movie.park)
                     Spacer()
@@ -45,6 +53,6 @@ struct MovieDetails: View {
 
 struct MovieDetails_Previews: PreviewProvider {
     static var previews: some View {
-        MovieDetails(movie: movies[0])
+        MovieDetails(movie: ModelData().movies[0])
     }
 }
