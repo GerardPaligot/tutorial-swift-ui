@@ -9,7 +9,7 @@ import Foundation
 import Combine
 
 final class ModelData: ObservableObject {
-    @Published var movies: [Movie] = load("landmarkData.json")
+    @Published var movies: [Movie] = load("movies.json")
 }
 
 func load<T: Decodable>(_ filename: String) -> T {
