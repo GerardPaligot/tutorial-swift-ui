@@ -15,9 +15,27 @@ struct Home: View {
         NavigationView {
             ScrollView {
                 LazyVStack {
-                    HomeSection(title: "Upcoming", movies: modelData.movies)
-                    HomeSection(title: "Popular", movies: modelData.movies)
-                    HomeSection(title: "Trending", movies: modelData.movies)
+                    HomeSection(title: "Upcoming") {
+                        HPoster(movies: modelData.movies) { (movie) in
+                            NavigationLink(destination: MovieDetails()) {
+                                Poster(posterUrl: movie.poster, elevation: 2)
+                            }
+                        }
+                    }
+                    HomeSection(title: "Popular") {
+                        HPoster(movies: modelData.movies) { (movie) in
+                            NavigationLink(destination: MovieDetails()) {
+                                Poster(posterUrl: movie.poster, elevation: 2)
+                            }
+                        }
+                    }
+                    HomeSection(title: "Trending") {
+                        HPoster(movies: modelData.movies) { (movie) in
+                            NavigationLink(destination: MovieDetails()) {
+                                Poster(posterUrl: movie.poster, elevation: 2)
+                            }
+                        }
+                    }
                 }
                 .padding(.top)
             }

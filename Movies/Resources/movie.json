@@ -1,0 +1,78 @@
+{
+    "title": "Joker",
+    "overview": "During the 1980s, a failed stand-up comedian is driven insane and turns to a life of crime and chaos in Gotham City while becoming an infamous psychopathic crime figure.",
+    "backdrop": "https://image.tmdb.org/t/p/w780/n6bUvigpRFqSwmPp1m2YADdbRBc.jpg",
+    "poster": "https://image.tmdb.org/t/p/w185/udDclJoHjfjb8Ekgsd4FDteOkCU.jpg",
+    "voteAverage": 82,
+    "genres": ["Crime", "Thriller", "Drama"],
+    "yearDate": "2019",
+    "runtime": 122,
+    "actors": [
+        {
+            "name": "Joaquin Phoenix",
+            "character": "Arthur Fleck / Joker",
+            "profilePath": "https://image.tmdb.org/t/p/w185/nXMzvVF6xR3OXOedozfOcoA20xh.jpg"
+        },
+        {
+            "name": "Robert De Niro",
+            "character": "Murray Franklin",
+            "profilePath": "https://image.tmdb.org/t/p/w185/cT8htcckIuyI1Lqwt1CvD02ynTh.jpg"
+        },
+        {
+            "name": "Zazie Beetz",
+            "character": "Sophie Dumond",
+            "profilePath": "https://image.tmdb.org/t/p/w185/sgxzT54GnvgeMnOZgpQQx9csAdd.jpg"
+        },
+        {
+            "name": "Frances Conroy",
+            "character": "Penny Fleck",
+            "profilePath": "https://image.tmdb.org/t/p/w185/aJRQAkO24L6bH8qkkE5Iv1nA3gf.jpg"
+        },
+        {
+            "name": "Brett Cullen",
+            "character": "Thomas Wayne",
+            "profilePath": "https://image.tmdb.org/t/p/w185/sEcPXqdcoZ9h4s7PSjVYocEPypP.jpg"
+        },
+        {
+            "name": "Shea Whigham",
+            "character": "Detective Burke",
+            "profilePath": "https://image.tmdb.org/t/p/w185/d3caK3l4UfbnzOxv95wLoFLZzMO.jpg"
+        }
+    ],
+    "recommendations": [
+        {
+            "id": 791373,
+            "title": "Zack Snyder's Justice League",
+            "overview": "Bruce Wayne est déterminé à faire en sorte que le sacrifice ultime de Superman ne soit pas vain. Pour cela, avec l'aide de Diana Prince, il met en place un plan pour recruter une équipe de métahumains afin de protéger le monde d'une menace apocalyptique imminente. La tâche s'avère plus difficile qu'il ne l'imaginait, car chacune des recrues doit faire face aux démons de son passé, et les surpasser, pour se rassembler et former une ligue de héros sans précédent. Désormais unis, Batman, Wonder Woman, Aquaman, Cyborg et Flash réussiront-ils à sauver la planète de Steppenwolf, DeSaad, Darkseid et de leurs terribles intentions ?",
+            "poster": "https://www.themoviedb.org/t/p/w220_and_h330_face/tnAuB8q5vv7Ax9UAEje5Xi4BXik.jpg"
+        }, {
+            "id": 399566,
+            "title": "Godzilla vs. Kong",
+            "overview": "À une époque où les monstres parcourent la Terre, et alors que l’humanité lutte pour son avenir, Godzilla et King Kong, les deux forces les plus puissantes de la nature, entrent en collision dans une bataille spectaculaire inédite. Alors que Monarch se lance dans une mission périlleuse en terrain inconnu, et qu’il découvre des indices sur les origines des Titans, un complot humain menace d’éradiquer ces créatures – qu’elles soient bonnes ou mauvaises – de la surface de la planète.",
+            "poster": "https://www.themoviedb.org/t/p/w220_and_h330_face/4bTShLVFnVKK31cowgjdAIZV84T.jpg"
+        },{
+            "id": 791374,
+            "title": "Zack Snyder's Justice League",
+            "overview": "Bruce Wayne est déterminé à faire en sorte que le sacrifice ultime de Superman ne soit pas vain. Pour cela, avec l'aide de Diana Prince, il met en place un plan pour recruter une équipe de métahumains afin de protéger le monde d'une menace apocalyptique imminente. La tâche s'avère plus difficile qu'il ne l'imaginait, car chacune des recrues doit faire face aux démons de son passé, et les surpasser, pour se rassembler et former une ligue de héros sans précédent. Désormais unis, Batman, Wonder Woman, Aquaman, Cyborg et Flash réussiront-ils à sauver la planète de Steppenwolf, DeSaad, Darkseid et de leurs terribles intentions ?",
+            "poster": "https://www.themoviedb.org/t/p/w220_and_h330_face/tnAuB8q5vv7Ax9UAEje5Xi4BXik.jpg"
+        }
+    ],
+    "similar": [
+        {
+            "id": 791373,
+            "title": "Zack Snyder's Justice League",
+            "overview": "Bruce Wayne est déterminé à faire en sorte que le sacrifice ultime de Superman ne soit pas vain. Pour cela, avec l'aide de Diana Prince, il met en place un plan pour recruter une équipe de métahumains afin de protéger le monde d'une menace apocalyptique imminente. La tâche s'avère plus difficile qu'il ne l'imaginait, car chacune des recrues doit faire face aux démons de son passé, et les surpasser, pour se rassembler et former une ligue de héros sans précédent. Désormais unis, Batman, Wonder Woman, Aquaman, Cyborg et Flash réussiront-ils à sauver la planète de Steppenwolf, DeSaad, Darkseid et de leurs terribles intentions ?",
+            "poster": "https://www.themoviedb.org/t/p/w220_and_h330_face/tnAuB8q5vv7Ax9UAEje5Xi4BXik.jpg"
+        }, {
+            "id": 399566,
+            "title": "Godzilla vs. Kong",
+            "overview": "À une époque où les monstres parcourent la Terre, et alors que l’humanité lutte pour son avenir, Godzilla et King Kong, les deux forces les plus puissantes de la nature, entrent en collision dans une bataille spectaculaire inédite. Alors que Monarch se lance dans une mission périlleuse en terrain inconnu, et qu’il découvre des indices sur les origines des Titans, un complot humain menace d’éradiquer ces créatures – qu’elles soient bonnes ou mauvaises – de la surface de la planète.",
+            "poster": "https://www.themoviedb.org/t/p/w220_and_h330_face/4bTShLVFnVKK31cowgjdAIZV84T.jpg"
+        },{
+            "id": 791374,
+            "title": "Zack Snyder's Justice League",
+            "overview": "Bruce Wayne est déterminé à faire en sorte que le sacrifice ultime de Superman ne soit pas vain. Pour cela, avec l'aide de Diana Prince, il met en place un plan pour recruter une équipe de métahumains afin de protéger le monde d'une menace apocalyptique imminente. La tâche s'avère plus difficile qu'il ne l'imaginait, car chacune des recrues doit faire face aux démons de son passé, et les surpasser, pour se rassembler et former une ligue de héros sans précédent. Désormais unis, Batman, Wonder Woman, Aquaman, Cyborg et Flash réussiront-ils à sauver la planète de Steppenwolf, DeSaad, Darkseid et de leurs terribles intentions ?",
+            "poster": "https://www.themoviedb.org/t/p/w220_and_h330_face/tnAuB8q5vv7Ax9UAEje5Xi4BXik.jpg"
+        }
+    ]
+}
